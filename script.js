@@ -49,3 +49,19 @@ modal_containers.forEach((modal_container) => {
         }
     });
 });
+
+// Select the toggle button and the body
+const toggleModeButton = document.getElementById('toggleMode');
+const body = document.body;
+
+// Add an event listener for the button
+toggleModeButton.addEventListener('click', () => {
+    // Toggle between light and dark mode classes on the body
+    if (body.classList.contains('dark-mode')) {
+        body.classList.replace('dark-mode', 'light-mode');
+        toggleModeButton.textContent = '🌞 Light Mode'; // Update button text
+    } else {
+        body.classList.replace('light-mode', 'dark-mode');
+        toggleModeButton.textContent = '🌙 Dark Mode'; // Update button text
+    }
+});
