@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felix Laurent</title>
+    <link rel="icon" href="/assets/Favicon.png" type="image/x-icon">
+    <link rel ="stylesheet" media="screen and (min-width:901px)" href="style.css">
+    <link rel ="stylesheet" media="screen and (min-width:601px) and (max-width:900px)" href="style2.css"> 
+    <link rel ="stylesheet" media="screen and (max-width:600px)" href="style3.css"> 
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <div class ="body_container">
+        <section id = "first_section">
+            <div class = "landing_page">
+                <div class = "landing_text">
+                    <h2>Hi! I'm</h2>
+                    <h1>Felix Laurent</h1>
+                    <div class ="wrapper">
+                        <div class ="static_text">a</div>
+                        <ul class = "dynamic_text">
+                            <li><span>Comp-Sci Student</span></li>
+                            <li><span>iOS Developer</span></li>
+                            <li><span>UI/UX Designer</span></li>
+                        </ul>
+                    </div>
+                    <p>Get to know more about me and my latest projects!</p>
+                    <button class = "button" onclick ="window.location.href='#second_section'">About Me</button>
+                </div>
+                <div class = "landing_profile">
+                    <div class = "profile_picture">
+                        <img class = "image_1" src = "assets/S__142131208.jpg">
+                        <img class = "image_2" src ="assets/S__78962692.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id = "second_section">
+            <div class = "about_me">
+                <div class ="me_desc to_reveal">  
+                    <div class ="circle to_reveal"></div>
+                    <h1>About Me</h1>
+                    <div class ="wrapper" style =" font-weight: 500; margin-bottom: 1px;">
+                        <ul class = "dynamic_text" style =" margin-left: 0px; line-height: 30px; height: 30px;">
+                            <li><span>Hi!</span></li>
+                            <li><span>Hai!</span></li>
+                            <li><span>你好!</span></li>
+                            <li><span>안녕!</span></li>
+                        </ul>
+                    </div>
+                    <p>Felix is a final-year Computer Science student and learner at the Apple Developer Academy 
+                        who is passionate about UI/UX design and iOS mobile app development.
+                        With early exposure to UI/UX before university, he recognizes how a 
+                        thoughtfully designed interface can transform user experience. 
+                        By combining design skills with a solid foundation in computer science, 
+                        Felix creates user-friendly and visually appealing designs that integrate 
+                        smoothly into code. Excited about continuous learning and growth, he is
+                        dedicated to building impactful and innovative solutions in the tech industry.
+                    </p>
+                    <div class ="connect">
+                        <a class ="connect_logo" href ="https://id.linkedin.com/in/felix-laurent"><img src ="assets/LinkedIn.png"></a>
+                        <a class ="connect_logo" href ="https://github.com/felixlaurent"><img src ="assets/Github.png"></a>
+                        <a class ="connect_logo" href ="https://www.instagram.com/felixlaurents/"><img src ="assets/Instagram.png"></a>
+                    </div>
+                </div>
+                <div class ="skills to_reveal">
+                    <h2>Skills</h2>
+                    <div class = "skills_list">
+                        <div class ="detail_skills_list">
+                            <p>Swift</p>
+                            <p>HTML5</p>
+                            <p>CSS</p>
+                            <p>JavaScript</p>
+                            <p>C</p>
+                            <p>Java</p>
+                            <p>PHP</p>
+                            <p>Laravel</p>
+                        </div>
+                        <div class ="detail_skills_list">
+                            <p>MySQL</p>
+                            <p>T-SQL</p>
+                            <p>ThreeJS</p>
+                            <p>Figma</p>
+                            <p>AxureRP</p>
+                            <p>Presentation</p>
+                            <p>Public Speaking</p>
+                            <p>Chinese</p>
+                        </div>
+                    </div>
+                    <a class = "view_my_resume" href="https://binusianorg-my.sharepoint.com/personal/felix_laurent_binus_ac_id/_layouts/15/guestaccess.aspx?share=EWBU6im6mJ9PvLiHqAg3BmQBNTenBNSaHlLdjxvm_B8Y0A&e=YtavT3">Download My Resume</a>
+                </div>
+            </div>
+        </section>
+    
+        <section id = "third_section">
+            <div class = "project_collection">
+                <h1 class ="title to_reveal">My Projects</h1>
+                <div class = "projects to_reveal">
+                    <div class ="circle2 to reveal"></div>
+                    <div class = "project_list to_reveal">
+                        <div class ="project_image">
+                            <img src = "/assets/Portfolio-1.png">
+                        </div>
+                        <div class ="project_desc">
+                            <h3 style = "color: #E75136;">SHOPEE REDESIGN</h3>
+                            <p>This redesign of Shopee was created in Figma to fulfill the final assignment for the Human Computer Interaction course. It has a more minimalist layout...</p> 
+                            <button id = "btn_1" class ="view_more open" data-modal="modal_btn_1" >View More</button>
+                        </div>
+                    </div>
+                    <div class = "project_list to_reveal">
+                        <div class ="project_image">
+                            <img src = "/assets/Portfolio-2.png">
+                        </div>
+                        <div class ="project_desc">
+                            <h3 style = "color: black;">M&T</h3>
+                            <p>M&T is an fictional multinational clothing company that has been inventing and experimenting with new fashion trends. M&T sells men's fashionwear that is...</p> 
+                            <button id = "btn_2" class ="view_more open" data-modal="modal_btn_2">View More</button>
+                        </div>
+                    </div>
+                    <div class = "project_list to_reveal">
+                        <div class ="project_image">
+                            <img src = "/assets/Portfolio-3.png">
+                        </div>
+                        <div class ="project_desc">
+                            <h3 style = "color: #0256B0;">PISCIS AQUARIUM</h3>
+                            <p>Piscis Aquarium is an website dedicated to introduce visitors to the aquarium's fascinating aquatic life. The website contains useful information on many...</p> 
+                            <button id = "btn_3" class ="view_more open" data-modal="modal_btn_3">View More</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class = "projects to_reveal">
+                    <div class ="circle3 to reveal"></div>
+                    <div class = "project_list to_reveal">
+                        <div class ="project_image">
+                            <img src = "/assets/Portfolio-4.png">
+                        </div>
+                        <div class ="project_desc">
+                            <h3 style = "color: #00C767;">FIT ME UP!</h3>
+                            <p>Fit Me Up! is the ultimate healthy lifestyle app designed for young adults aged 15 and up. It's your one-stop shop for easily managing your eating and...</p> 
+                            <button id = "btn_4" class ="view_more open" data-modal="modal_btn_4">View More</button>
+                        </div>
+                    </div>
+                    <div class = "project_list to_reveal">
+                        <div class ="project_image">
+                            <img src = "/assets/Portfolio-5.png">
+                        </div>
+                        <div class ="project_desc">
+                            <h3 style = "color: #4A91C6;">BAJO EXPLORER</h3>
+                            <p>BajoExplorer is an app designed to introduce tourists to the beauty of Labuan Bajo, allowing them to plan trips to this stunning destination. Users can...</p> 
+                            <button id = "btn_5" class ="view_more open" data-modal="modal_btn_5">View More</button>
+                        </div>
+                    </div>
+                    <div class = "project_list to_reveal">
+                        <div class ="project_image">
+                            <img src = "/assets/Portfolio-6.png">
+                        </div>
+                        <div class ="project_desc">
+                            <h3 style = "color: #077AFF;">DISNEY 100</h3>
+                            <p>Enter the enchanting world of Disney's 100th anniversary celebration with a captivating 3D scene created with Three.js. I’ve created a magical landscape...</p> 
+                            <button id = "btn_6" class ="view_more open" data-modal="modal_btn_6">View More</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- <div class = "projects to_reveal">
+                    <div class ="circle4 to reveal"></div>
+                    <div class = "project_list to_reveal">
+                        <div class ="project_image">
+                            <img src = "/assets/Portfolio-7.png">
+                        </div>
+                        <div class ="project_desc">
+                            <h3 style = "color: #6591D6;">JESTINY</h3>
+                            <p>JestIny is a well-known free-to-play online first-person shooter game, and this website has been designed to serve as a source of information for all things...</p> 
+                            <button id = "btn_7" class ="view_more open" data-modal="modal_btn_7">View More</button>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class = "projects to_reveal">
+                    <div class ="circle4 to reveal"></div>
+                    <div class = "project_list to_reveal">
+                        <div class ="project_image">
+                            <img src = "/assets/Portfolio-7.png">
+                        </div>
+                        <div class ="project_desc">
+                            <h3 style = "color: #EF7607;">JAGA</h3>
+                            <p class="ellipsis">
+                                JAGA is a cost-effective visitor management app for housing complexes, enabling security to efficiently collect and manage visitor data, like license plates, vehicle types, and ID cards.
+                            </p>                            
+                            <button id = "btn_7" class ="view_more open" data-modal="modal_btn_7">View More</button>
+                        </div>
+                    </div>
+                    <div class = "project_list to_reveal">
+                        <div class ="project_image">
+                            <img src = "/assets/Portfolio-8.png">
+                        </div>
+                        <div class ="project_desc">
+                            <h3 style = "color: #7CA6D7;">Talktify</h3>
+                            <p class="ellipsis">
+                                Talktify is an app that lets you make phone calls with a fully customizable AI assistant, designed to adapt to your unique preferences. Choose the language, gender, and personality style that best suits your needs, creating a personalized and engaging calling experience. Talktify brings convenience and personality to every call.
+                            </p>                                
+                            <button id = "btn_8" class ="view_more open" data-modal="modal_btn_8">View More</button>
+                        </div>
+                    </div>
+                    <div class = "project_list to_reveal">
+                        <div class ="project_image">
+                            <img src = "/assets/Portfolio-9.png">
+                        </div>
+                        <div class ="project_desc">
+                            <div style="display: flex; align-items: center;">
+                                <h3 style="color: #0F8EE9; margin: 0;">Re</h3>
+                                <h3 style="color: #29C17B; margin: 0;">Track</h3>
+                            </div>                            
+                            <p class="ellipsis">
+                                ReTrack is an innovative Apple Watch app that utilizes MapKit and Core Location technologies to track your journey. When you’re ready to head back, it guides you along the same path to your starting point, displaying the route on a map.
+                            </p>                                
+                            <button id = "btn_9" class ="view_more open" data-modal="modal_btn_9">View More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "projects to_reveal">
+                    <div class = "project_list to_reveal">
+                        <div class ="project_image">
+                            <img src = "/assets/Portfolio-10.png">
+                        </div>
+                        <div class ="project_desc">
+                            <h3 style = "color: #FF783E;">Farm Fighters</h3>
+                            <p class="ellipsis">
+                                Farm Fighters is a fun, multiplayer strategy and shooting game for iPadOS, designed for players aged 7 and up. The game combines skillful shooting mechanics with friendly competition, offering a playful and engaging experience for kids and adults alike.                            
+                            </p>                               
+                            <button id = "btn_10" class ="view_more open" data-modal="modal_btn_10">View More</button>
+                        </div>
+                    </div>
+                    <div class = "project_list to_reveal">
+                        <div class ="project_image">
+                            <img src = "/assets/Portfolio-11.png">
+                        </div>
+                        <div class ="project_desc">
+                            <h3 style = "color: #6F96D1;">Endxiety</h3>
+                            <p class="ellipsis">
+                                Endxiety is a note-taking app designed to support you through anxious moments. Quickly jot down thoughts, record feelings, and track your mental state over time. With an easy-to-use, organized layout, Endxiety helps you manage your emotions and see your progress whenever you need it.
+                            </p>                                
+                            <button id = "btn_11" class ="view_more open" data-modal="modal_btn_11">View More</button>
+                        </div>
+                    </div>
+                    <div class = "project_list to_reveal">
+                        <div class ="project_image">
+                            <img src = "/assets/Portfolio-12.png">
+                        </div>
+                        <div class ="project_desc">
+                            <h3 style = "color: #213763;">Ladder</h3>
+                            <p class="ellipsis">
+                                Ladder is a memory diary and mini-game app that helps caregivers support loved ones with dementia in maintaining cognitive function.
+                            </p>                                
+                            <button id = "btn_12" class ="view_more open" data-modal="modal_btn_12">View More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "projects to_reveal">
+                    <div class = "project_list to_reveal">
+                        <div class ="project_image">
+                            <img src = "/assets/Portfolio-13.png">
+                        </div>
+                        <div class ="project_desc">
+                            <h3 style = "color: #478EFF;">Flocky</h3>
+                            <p class="ellipsis">
+                                Flocky is an app for group travelers that simplifies itinerary planning by streamlining collaboration and finding the most efficient travel routes
+                            </p>                                
+                            <button id = "btn_13" class ="view_more open" data-modal="modal_btn_13">View More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <div class ="pop_up">
+        <div class="modal_btn_1 modal_container">
+            <div class="modal">
+                <div class ="close">
+                    <img src ="assets/Close.png">
+                </div>
+                <div class = "detail_image">
+                    <img src  ="assets/Inside Frame.png">
+                </div>
+                <div class="modal_content">
+                    <div class ="content_detail">
+                        <div class ="detail_child">
+                            <h4>Year Accomplished</h4>
+                            <p>2022</p>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Tools/Technology Used</h4>
+                            <ul>
+                                <li>Figma</li>
+                            </ul>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Role/Position</h4>
+                            <ul>
+                                <li>Project Manager</li>
+                                <li>UI/UX Designer</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class ="content_description">
+                        <h4>Project Description</h4>
+                        <p>This redesign of Shopee was created in Figma to fulfill the final assignment for the Human Computer Interaction course. It has a more minimalist layout yet preserves the characteristics of the Shopee marketplace application. </p>
+                        <br>
+                        <p>Shopee's signature orange color remains, but some aspects and positions that violate the Shneiderman "Eight Golden Rules" are updated to offer a better User Interface and a more comfortable User Experience.</p>
+                    </div>
+                    <div class="content_link">
+                        <button class="link_button" id = "btn_1" onclick="window.location.href='https://www.figma.com/file/4uNjg1B92D3rwh9cdgcb79/HCI-LEC?type=design&node-id=0%3A1&mode=design&t=BReNWU04YxQXMWCv-1'">Figma</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="modal_btn_2 modal_container ">
+            <div class="modal">
+                <div class ="close">
+                    <img src ="assets/Close.png">
+                </div>
+                <div class = "detail_image">
+                    <img src  ="assets/Inside Frame2.png">
+                </div>
+                <div class="modal_content">
+                    <div class ="content_detail">
+                        <div class ="detail_child">
+                            <h4>Year Accomplished</h4>
+                            <p>2022</p>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Tools/Technology Used</h4>
+                            <ul>
+                                <li>Figma</li>
+                                <li>HTML5, CSS, JavaScript</li>
+                                <li>Laravel9, MySQL</li>
+                            </ul>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Role/Position</h4>
+                            <ul>
+                                <li>Project Manager</li>
+                                <li>UI/UX Designer</li>
+                                <li>Programmer</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class ="content_description">
+                        <h4>Project Description</h4>
+                        <p>M&T is an fictional multinational clothing company that has been inventing and experimenting with new fashion trends. Its branches can be found all over the world. M&T sells men's fashionwear that is up to date with the latest fashion trends. </p>
+                        <br>
+                        <p>This project is made up of five HTML files, two CSS file to display distinct interfaces on PCs and smartphones, and JavaScript  to validate user input on the Subscribe page. This project was finished by creating the website interface display in Figma before writing it in the above-mentioned programming language. </p>
+                        <br>
+                        <p>This project is also available in a version that uses Laravel with MySQL without any styling at all.</p>
+                    </div>
+                    <div class="content_link">
+                        <button class="link_button" id = "btn_2" onclick="window.location.href='https://www.figma.com/file/TAz1PfCwouvPio06bajQ9p/Project-Felix?type=design&node-id=0%3A1&mode=design&t=o9f0ffBPzMrou81m-1'">Figma</button>
+                        <button class="link_button" id = "btn_2" onclick="window.location.href='https://github.com/felixlaurent/mNt_website_project'">Github</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="modal_btn_3 modal_container ">
+            <div class="modal">
+                <div class ="close">
+                    <img src ="assets/Close.png">
+                </div>
+                <div class = "detail_image">
+                    <img src  ="assets/Inside Frame3.png">
+                </div>
+                <div class="modal_content">
+                    <div class ="content_detail">
+                        <div class ="detail_child">
+                            <h4>Year Accomplished</h4>
+                            <p>2022</p>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Tools/Technology Used</h4>
+                            <ul>
+                                <li>HTML5, CSS</li>
+                            </ul>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Role/Position</h4>
+                            <ul>
+                                <li>Project Manager</li>
+                                <li>UI/UX Designer</li>
+                                <li>Programmer</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class ="content_description">
+                        <h4>Project Description</h4>
+                        <p>Piscis Aquarium is an  website dedicated to introduce visitors to the aquarium's fascinating aquatic life. The website contains useful information on many marine creatures, their habitats, and their traits. This website also offers easy access to ticket information, allowing guests to plan their visit and experience the aquatic treasures on show.</p>
+                        <br>
+                        <p>The website is built with three  HTML files, each represent distinct pages, and it features an appealing interface design enabled by a dedicated CSS file.</p>
+                    </div>
+                    <div class="content_link">
+                        <button class="link_button" id = "btn_3" onclick="window.location.href='https://github.com/felixlaurent/piscisAquarium_website'">Github</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="modal_btn_4 modal_container ">
+            <div class="modal">
+                <div class ="close">
+                    <img src ="assets/Close.png">
+                </div>
+                <div class = "detail_image">
+                    <img src  ="assets/Inside Frame4.png">
+                </div>
+                <div class="modal_content">
+                    <div class ="content_detail">
+                        <div class ="detail_child">
+                            <h4>Year Accomplished</h4>
+                            <p>2023</p>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Tools/Technology Used</h4>
+                            <ul>
+                                <li>Figma</li>
+                            </ul>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Role/Position</h4>
+                            <ul>
+                                <li>Project Manager</li>
+                                <li>UI/UX Designer</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class ="content_description">
+                        <h4>Project Description</h4>
+                        <p>Fit Me Up! is the ultimate healthy lifestyle app designed for young adults aged 15 and up. It's your one-stop shop for easily managing your eating and exercise schedules based on your personal preferences.</p>
+                        <br>
+                        <p>Fit Me Up! also has a game-changing food scanning feature that calculates calorie intake with just a snapshot of the food. It even keeps track of your workout progress. This is the future of staying fit and healthy, packaged in an easy-to-use Figma prototype. Prepare to have your lifestyle transformed by Fit Me Up!</p>
+                    </div>
+                    <div class="content_link">
+                        <button class="link_button" id = "btn_4" onclick="window.location.href='https://www.figma.com/file/ jYI1tDgrTOXrcLBSEUNtSS/ SE-Prototype-Design? type=design&node-id=0% 3A1&t=GKbInPJgfEepKCYw1'">Figma</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="modal_btn_5 modal_container ">
+            <div class="modal">
+                <div class ="close">
+                    <img src ="assets/Close.png">
+                </div>
+                <div class = "detail_image">
+                    <img src  ="assets/Inside Frame5.png">
+                </div>
+                <div class="modal_content">
+                    <div class ="content_detail">
+                        <div class ="detail_child">
+                            <h4>Year Accomplished</h4>
+                            <p>2023</p>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Tools/Technology Used</h4>
+                            <ul>
+                                <li>Figma</li>
+                                <li>Axure RP9</li>
+                            </ul>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Role/Position</h4>
+                            <ul>
+                                <li>Project Manager</li>
+                                <li>UI/UX Designer</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class ="content_description">
+                        <h4>Project Description</h4>
+                        <p>BajoExplorer is an app designed to introduce tourists to the beauty of Labuan Bajo, allowing them to plan trips to this stunning destination. Users can look through a variety of trip packages, ranging from solo adventures to family vacations. Users can view their trip schedules directly within the app in addition to booking these packages.</p>
+                        <br>
+                        <p>This app was developed in the form of a Figma and Axure prototype, making it a user-friendly and interactive way to explore Labuan Bajo and plan your dream vacation.</p>
+                    </div>
+                    <div class="content_link">
+                        <button class="link_button" id = "btn_5" onclick="window.location.href='https://www.figma.com/file/1evssVBIBh0bVT8dIMrzhQ/BajoExplorer?type=design&node-id=0%3A1&mode=design&t=TUpFbsumpNHpboni-1'">Figma</button>
+                        <button class="link_button" id = "btn_5" onclick="window.location.href='https://64ci9j.axshare.com'">Axure</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="modal_btn_6 modal_container ">
+            <div class="modal">
+                <div class ="close">
+                    <img src ="assets/Close.png">
+                </div>
+                <div class = "detail_image">
+                    <img src  ="assets/Inside Frame6.png">
+                </div>
+                <div class="modal_content">
+                    <div class ="content_detail">
+                        <div class ="detail_child">
+                            <h4>Year Accomplished</h4>
+                            <p>2023</p>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Tools/Technology Used</h4>
+                            <ul>
+                                <li>Three.js</li>
+                            </ul>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Role/Position</h4>
+                            <ul>
+                                <li>Programmer</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class ="content_description">
+                        <h4>Project Description</h4>
+                        <p>Enter the enchanting world of Disney's 100th anniversary celebration with a captivating 3D scene created with Three.js. I've created a magical landscape featuring Disney's iconic castle and beloved characters such as Mickey and Minnie Mouse, as well as the delightful Disney Princesses. </p>
+                        <br>
+                        <p>This project include Three.js components like perspective cameras and geometric shapes like boxes, cylinders, spheres, and torus to bring Disney magic to life. It's a celebration of a century of heartwarming stories and treasured memories encapsulated in one extraordinary digital experience.</p>
+                    </div>
+                    <div class="content_link">
+                        <button class="link_button" id = "btn_6" onclick="window.location.href='https://github.com/felixlaurent/disney_threejs_project'">Github</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="modal_btn_7 modal_container ">
+            <div class="modal">
+                <div class ="close">
+                    <img src ="assets/Close.png">
+                </div>
+                <div class = "detail_image">
+                    <img src  ="assets/Inside Frame7.png">
+                </div>
+                <div class="modal_content">
+                    <div class ="content_detail">
+                        <div class ="detail_child">
+                            <h4>Year Accomplished</h4>
+                            <p>2024</p>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Tools/Technology Used</h4>
+                            <ul>
+                                <li>Figma</li>
+                                <li>XCode, Swift, SwiftUI</li>
+                            </ul>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Role/Position</h4>
+                            <ul>
+                                <li>UI/UX Designer</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class ="content_description">
+                        <h4>Project Description</h4>
+                        <p>JAGA is a cost-effective visitor management app for housing complexes, enabling security to efficiently collect and manage visitor data, like license plates, vehicle types, and ID cards.
+                            <br><br>
+                            With OCR technology, JAGA quickly converts images into text, allowing guards to assign visitor slots and save records digitally—enhancing safety and optimizing operations.</p>
+                    </div>
+                    <div class="content_link">
+                        <button class="link_button" id = "btn_7" onclick="window.location.href='https://www.figma.com/file/8srI1LC1Pc6pOZQkH7wGjI/T101_WebDesignH1_Figma?type=design&node-id=0%3A1&mode=design&t=TBSv8dVEUPvOdJoN-1'">Figma</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal_btn_8 modal_container ">
+            <div class="modal">
+                <div class ="close">
+                    <img src ="assets/Close.png">
+                </div>
+                <div class = "detail_image">
+                    <img src  ="assets/Inside Frame8.png">
+                </div>
+                <div class="modal_content">
+                    <div class ="content_detail">
+                        <div class ="detail_child">
+                            <h4>Year Accomplished</h4>
+                            <p>2024</p>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Tools/Technology Used</h4>
+                            <ul>
+                                <li>Figma</li>
+                                <li>XCode, Swift, SwiftUI, OpenAI API, ElevenLabs API, Speech-to-text</li>
+                            </ul>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Role/Position</h4>
+                            <ul>
+                                <li>UI/UX Designer</li>
+                                <li>Programmer/Coder</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class ="content_description">
+                        <h4>Project Description</h4>
+                        <p>Talktify is an app that lets you make phone calls with a fully customizable AI assistant, designed to adapt to your unique preferences. Choose the language, gender, and personality style that best suits your needs, creating a personalized and engaging calling experience. Talktify brings convenience and personality to every call.</p>
+                    </div>
+                    <div class="content_link">
+                        <button class="link_button" id = "btn_8" onclick="window.location.href='https://www.figma.com/file/8srI1LC1Pc6pOZQkH7wGjI/T101_WebDesignH1_Figma?type=design&node-id=0%3A1&mode=design&t=TBSv8dVEUPvOdJoN-1'">Figma</button>
+                        <button class="link_button" id = "btn_8" onclick="window.location.href='https://github.com/felixlaurent/mNt_website_project'">Github</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal_btn_9 modal_container ">
+            <div class="modal">
+                <div class ="close">
+                    <img src ="assets/Close.png">
+                </div>
+                <div class = "detail_image">
+                    <img src  ="assets/Inside Frame9.png">
+                </div>
+                <div class="modal_content">
+                    <div class ="content_detail">
+                        <div class ="detail_child">
+                            <h4>Year Accomplished</h4>
+                            <p>2024</p>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Tools/Technology Used</h4>
+                            <ul>
+                                <li>Figma</li>
+                                <li>XCode, Swift, SwiftUI, MapKit, Core Location</li>
+                            </ul>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Role/Position</h4>
+                            <ul>
+                                <li>UI/UX Designer</li>
+                                <li>Programmer/Coder</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class ="content_description">
+                        <h4>Project Description</h4>
+                        <p>ReTrack is an innovative Apple Watch app that utilizes MapKit and Core Location technologies to track your journey. When you’re ready to head back, it guides you along the same path to your starting point, displaying the route on a map. </p>
+                    </div>
+                    <div class="content_link">
+                        <button class="link_button" id = "btn_9" onclick="window.location.href='https://www.figma.com/file/8srI1LC1Pc6pOZQkH7wGjI/T101_WebDesignH1_Figma?type=design&node-id=0%3A1&mode=design&t=TBSv8dVEUPvOdJoN-1'">Figma</button>
+                        <button class="link_button" id = "btn_9" onclick="window.location.href='https://github.com/felixlaurent/mNt_website_project'">Github</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal_btn_10 modal_container ">
+            <div class="modal">
+                <div class ="close">
+                    <img src ="assets/Close.png">
+                </div>
+                <div class = "detail_image">
+                    <img src  ="assets/Inside Frame10.png">
+                </div>
+                <div class="modal_content">
+                    <div class ="content_detail">
+                        <div class ="detail_child">
+                            <h4>Year Accomplished</h4>
+                            <p>2024</p>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Tools/Technology Used</h4>
+                            <ul>
+                                <li>Notion</li>
+                                <li>Illustration, 2D Sprites & Assets, Game Design</li>
+                                <li>XCode, Swift, SwiftUI, Sprite Kit</li>
+                            </ul>
+                        </div>
+                        <div class ="detail_child">
+                            <h4>Role/Position</h4>
+                            <ul>
+                                <li>Project Manager</li>
+                                <li>Programmer/Coder</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class ="content_description">
+                        <h4>Project Description</h4>
+                        <p>Farm Fighters is a fun, multiplayer strategy and shooting game for iPadOS, designed for players aged 7 and up. The game combines skillful shooting mechanics with friendly competition, offering a playful and engaging experience for kids and adults alike.
+                            <br><br>
+                            In this game, teams of chickens and ducks compete in real-time battles to win the coveted Supercorn. Inspired by classic games like Angry Birds, Farm Fighters adds exciting multiplayer features, strategic unit placement, and dynamic environments.</p>
+                    </div>
+                    <div class="content_link">
+                        <button class="link_button" id = "btn_10" onclick="window.location.href='https://www.figma.com/file/8srI1LC1Pc6pOZQkH7wGjI/T101_WebDesignH1_Figma?type=design&node-id=0%3A1&mode=design&t=TBSv8dVEUPvOdJoN-1'">Figma</button>
+                        <button class="link_button" id = "btn_10" onclick="window.location.href='https://github.com/felixlaurent/mNt_website_project'">Github</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal_btn_11 modal_container ">
+        <div class="modal">
+            <div class ="close">
+                <img src ="assets/Close.png">
+            </div>
+            <div class = "detail_image">
+                <img src  ="assets/Inside Frame11.png">
+            </div>
+            <div class="modal_content">
+                <div class ="content_detail">
+                    <div class ="detail_child">
+                        <h4>Year Accomplished</h4>
+                        <p>2024</p>
+                    </div>
+                    <div class ="detail_child">
+                        <h4>Tools/Technology Used</h4>
+                        <ul>
+                            <li>Figma, Adobe Illustrator, Dark Mode</li>
+                            <li>XCode, Swift, SwiftUI, Swift Data, MVVM, Localization, Audio</li>
+                        </ul>
+                    </div>
+                    <div class ="detail_child">
+                        <h4>Role/Position</h4>
+                        <ul>
+                            <li>Jira</li>
+                            <li>UI/UX Designer</li>
+                            <li>Programmer/Coder</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class ="content_description">
+                    <h4>Project Description</h4>
+                    <p>Endxiety is a note-taking app designed to support you through anxious moments. Quickly jot down thoughts, record feelings, and track your mental state over time. With an easy-to-use, organized layout, Endxiety helps you manage your emotions and see your progress whenever you need it.</p>
+                </div>
+                <div class="content_link">
+                    <button class="link_button" id = "btn_11" onclick="window.location.href='https://www.figma.com/file/8srI1LC1Pc6pOZQkH7wGjI/T101_WebDesignH1_Figma?type=design&node-id=0%3A1&mode=design&t=TBSv8dVEUPvOdJoN-1'">Figma</button>
+                    <button class="link_button" id = "btn_11" onclick="window.location.href='https://github.com/felixlaurent/mNt_website_project'">Github</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal_btn_12 modal_container ">
+        <div class="modal">
+            <div class ="close">
+                <img src ="assets/Close.png">
+            </div>
+            <div class = "detail_image">
+                <img src  ="assets/Inside Frame12.png">
+            </div>
+            <div class="modal_content">
+                <div class ="content_detail">
+                    <div class ="detail_child">
+                        <h4>Year Accomplished</h4>
+                        <p>2024</p>
+                    </div>
+                    <div class ="detail_child">
+                        <h4>Tools/Technology Used</h4>
+                        <ul>
+                            <li>Jira</li>
+                            <li>Figma, Procreate, Lottie</li>
+                            <li>XCode, Swift, SwiftUI, Swift Data, MVVM, Audio</li>
+                        </ul>
+                    </div>
+                    <div class ="detail_child">
+                        <h4>Role/Position</h4>
+                        <ul>
+                            <li>Programmer/Coder</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class ="content_description">
+                    <h4>Project Description</h4>
+                    <p>Ladder is a memory diary and mini-game app that helps caregivers support loved ones with dementia in maintaining cognitive function.
+                        <br><br>
+                        Through the Memory Album feature, caregivers capture and categorize daily moments and special memories in photo albums. Each photo can include captions or voice notes, helping loved ones recall stories with personal and emotional context, making memories more vivid.
+                        <br><br>
+                        Ladder also includes a Puzzle Memory Game, turning album photos into puzzles that engage cognitive skills. Upon puzzle completion, captions are revealed via text-to-speech or voice notes, allowing users to revisit cherished memories. Combining cognitive stimulation with memory recall, Ladder enriches daily experiences in an interactive, meaningful way.</p>
+                </div>
+                <div class="content_link">
+                    <button class="link_button" id = "btn_12" onclick="window.location.href='https://www.figma.com/file/8srI1LC1Pc6pOZQkH7wGjI/T101_WebDesignH1_Figma?type=design&node-id=0%3A1&mode=design&t=TBSv8dVEUPvOdJoN-1'">Figma</button>
+                    <button class="link_button" id = "btn_12" onclick="window.location.href='https://github.com/felixlaurent/mNt_website_project'">Github</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal_btn_13 modal_container ">
+        <div class="modal">
+            <div class ="close">
+                <img src ="assets/Close.png">
+            </div>
+            <div class = "detail_image">
+                <img src  ="assets/Inside Frame10.png">
+            </div>
+            <div class="modal_content">
+                <div class ="content_detail">
+                    <div class ="detail_child">
+                        <h4>Year Accomplished</h4>
+                        <p>2024</p>
+                    </div>
+                    <div class ="detail_child">
+                        <h4>Tools/Technology Used</h4>
+                        <ul>
+                            <li>Jira</li>
+                            <li>Figma, Adobe Illustrator</li>
+                            <li>XCode, Swift, SwiftUI, Github, Firebase, Google API</li>
+                        </ul>
+                    </div>
+                    <div class ="detail_child">
+                        <h4>Role/Position</h4>
+                        <ul>
+                            <li>Programmer/Coder</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class ="content_description">
+                    <h4>Project Description</h4>
+                    <p>"Planning an itinerary for a group trip has never been easier & exciting"
+                        <br><br>
+                        Flocky is an app for group travelers that simplifies itinerary planning by streamlining collaboration and finding the most efficient travel routes</p>
+                </div>
+                <div class="content_link">
+                    <button class="link_button" id = "btn_13" onclick="window.location.href='https://www.figma.com/file/8srI1LC1Pc6pOZQkH7wGjI/T101_WebDesignH1_Figma?type=design&node-id=0%3A1&mode=design&t=TBSv8dVEUPvOdJoN-1'">Figma</button>
+                    <button class="link_button" id = "btn_13" onclick="window.location.href='https://github.com/felixlaurent/mNt_website_project'">App Store</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <p>COPYRIGHT © 2023 ALL RIGHT RESERVED</p>
+    </footer>
+</body>
+</html>
