@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Felix Laurent</title>
     <link rel="icon" href="assets/Favicon.png" type="image/x-icon">
-    <link rel ="stylesheet" media="screen and (min-width:901px)" href="style.css">
-    <link rel ="stylesheet" media="screen and (min-width:601px) and (max-width:900px)" href="style2.css"> 
-    <link rel ="stylesheet" media="screen and (max-width:600px)" href="style3.css"> 
+    <link rel ="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -35,7 +33,7 @@
                 <div class = "landing_profile">
                     <div class = "profile_picture">
                         <img class = "image_1" src = "assets/S__142131208.jpg">
-                        <img class = "image_2" src ="assets/S__78962692.jpg">
+                        <img class = "image_2" src ="assets/profile.jpg">
                     </div>
                 </div>
             </div>
@@ -66,6 +64,7 @@
                     <div class ="connect">
                         <a class ="connect_logo" href ="https://id.linkedin.com/in/felix-laurent"><img src ="assets/LinkedIn.png"></a>
                         <a class ="connect_logo" href ="https://github.com/felixlaurent"><img src ="assets/Github.png"></a>
+                        <a class ="connect_logo" href ="https://www.instagram.com/felixlaurents/"><img src ="assets/Medium.png"></a>
                         <a class ="connect_logo" href ="https://www.instagram.com/felixlaurents/"><img src ="assets/Instagram.png"></a>
                     </div>
                 </div>
@@ -109,7 +108,9 @@
                         </div>
                         <div class ="project_desc">
                             <h3 style = "color: #E75136;">SHOPEE REDESIGN</h3>
-                            <p>This redesign of Shopee was created in Figma to fulfill the final assignment for the Human Computer Interaction course. It has a more minimalist layout...</p> 
+                            <p class="ellipsis">
+                                This redesign of Shopee was created in Figma to fulfill the final assignment for the Human Computer Interaction course. It has a more minimalist layout yet preserves the characteristics of the Shopee marketplace application.                            
+                            </p>                               
                             <button id = "btn_1" class ="view_more open" data-modal="modal_btn_1" >View More</button>
                         </div>
                     </div>
@@ -119,7 +120,9 @@
                         </div>
                         <div class ="project_desc">
                             <h3 style = "color: black;">M&T</h3>
-                            <p>M&T is an fictional multinational clothing company that has been inventing and experimenting with new fashion trends. M&T sells men's fashionwear that is...</p> 
+                            <p class="ellipsis">
+                                M&T is an fictional multinational clothing company that has been inventing and experimenting with new fashion trends. Its branches can be found all over the world. M&T sells men's fashionwear that is up to date with the latest fashion trends.                            
+                            </p>                               
                             <button id = "btn_2" class ="view_more open" data-modal="modal_btn_2">View More</button>
                         </div>
                     </div>
@@ -129,7 +132,9 @@
                         </div>
                         <div class ="project_desc">
                             <h3 style = "color: #0256B0;">PISCIS AQUARIUM</h3>
-                            <p>Piscis Aquarium is an website dedicated to introduce visitors to the aquarium's fascinating aquatic life. The website contains useful information on many...</p> 
+                            <p class="ellipsis">
+                                Piscis Aquarium is an website dedicated to introduce visitors to the aquarium's fascinating aquatic life. The website contains useful information on many marine creatures, their habitats, and their traits. This website also offers easy access to ticket information, allowing guests to plan their visit and experience the aquatic treasures on show.                            
+                            </p>                               
                             <button id = "btn_3" class ="view_more open" data-modal="modal_btn_3">View More</button>
                         </div>
                     </div>
@@ -143,7 +148,9 @@
                         </div>
                         <div class ="project_desc">
                             <h3 style = "color: #00C767;">FIT ME UP!</h3>
-                            <p>Fit Me Up! is the ultimate healthy lifestyle app designed for young adults aged 15 and up. It's your one-stop shop for easily managing your eating and...</p> 
+                            <p class="ellipsis">
+                                Fit Me Up! is the ultimate healthy lifestyle app designed for young adults aged 15 and up. It's your one-stop shop for easily managing your eating and exercise schedules based on your personal preferences.                            
+                            </p>                               
                             <button id = "btn_4" class ="view_more open" data-modal="modal_btn_4">View More</button>
                         </div>
                     </div>
@@ -153,7 +160,9 @@
                         </div>
                         <div class ="project_desc">
                             <h3 style = "color: #4A91C6;">BAJO EXPLORER</h3>
-                            <p>BajoExplorer is an app designed to introduce tourists to the beauty of Labuan Bajo, allowing them to plan trips to this stunning destination. Users can...</p> 
+                            <p class="ellipsis">
+                                BajoExplorer is an app designed to introduce tourists to the beauty of Labuan Bajo, allowing them to plan trips to this stunning destination. Users can look through a variety of trip packages, ranging from solo adventures to family vacations. Users can view their trip schedules directly within the app in addition to booking these packages.                            
+                            </p>                               
                             <button id = "btn_5" class ="view_more open" data-modal="modal_btn_5">View More</button>
                         </div>
                     </div>
@@ -163,7 +172,9 @@
                         </div>
                         <div class ="project_desc">
                             <h3 style = "color: #077AFF;">DISNEY 100</h3>
-                            <p>Enter the enchanting world of Disney's 100th anniversary celebration with a captivating 3D scene created with Three.js. I’ve created a magical landscape...</p> 
+                            <p class="ellipsis">
+                                Enter the enchanting world of Disney's 100th anniversary celebration with a captivating 3D scene created with Three.js. I've created a magical landscape featuring Disney's iconic castle and beloved characters such as Mickey and Minnie Mouse, as well as the delightful Disney Princesses.                            \
+                            </p>                               
                             <button id = "btn_6" class ="view_more open" data-modal="modal_btn_6">View More</button>
                         </div>
                     </div>
@@ -573,7 +584,7 @@
                             With OCR technology, JAGA quickly converts images into text, allowing guards to assign visitor slots and save records digitally—enhancing safety and optimizing operations.</p>
                     </div>
                     <div class="content_link">
-                        <button class="link_button" id = "btn_7" onclick="window.location.href=''">Figma</button>
+                        <button class="link_button" id = "btn_7" onclick="window.location.href='https://bit.ly/3TLXAG6?r=qr'">Figma</button>
                     </div>
                 </div>
             </div>
@@ -613,8 +624,8 @@
                         <p>Talktify is an app that lets you make phone calls with a fully customizable AI assistant, designed to adapt to your unique preferences. Choose the language, gender, and personality style that best suits your needs, creating a personalized and engaging calling experience. Talktify brings convenience and personality to every call.</p>
                     </div>
                     <div class="content_link">
-                        <button class="link_button" id = "btn_8" onclick="window.location.href=''">Figma</button>
-                        <button class="link_button" id = "btn_8" onclick="window.location.href=''">Github</button>
+                        <button class="link_button" id = "btn_8" onclick="window.location.href='https://www.figma.com/proto/4pcM09IKPVBhmNl6xbEsIj/Nano-1--?page-id=0%3A1&node-id=1-2&node-type=frame&viewport=327%2C291%2C0.26&t=oqz6WxE7NPZREEfM-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2&show-proto-sidebar=1'">Figma</button>
+                        <button class="link_button" id = "btn_8" onclick="window.location.href='https://bit.ly/3NKRhQI?r=qr'">Github</button>
                     </div>
                 </div>
             </div>
@@ -654,9 +665,9 @@
                         <p>ReTrack is an innovative Apple Watch app that utilizes MapKit and Core Location technologies to track your journey. When you’re ready to head back, it guides you along the same path to your starting point, displaying the route on a map. </p>
                     </div>
                     <div class="content_link">
-                        <button class="link_button" id = "btn_9" onclick="window.location.href=''">Figma</button>
-                        <button class="link_button" id = "btn_9" onclick="window.location.href=''">Github</button>
-                        <button class="link_button" id = "btn_9" onclick="window.location.href=''">Medium (Publication)</button>
+                        <button class="link_button" id = "btn_9" onclick="window.location.href='https://bit.ly/4f95hzS?r=qr'">Github</button>
+                        <button class="link_button" id = "btn_9" onclick="window.location.href='https://bit.ly/ReTrack-Medium'">Medium (Publication)</button>
+                        <button class="link_button" id = "btn_9" onclick="window.location.href='https://www.figma.com/proto/2gbw7zqrFbeKBPELwQKOaH/Re-Track?page-id=0%3A1&node-id=319-230&node-type=frame&viewport=-1243%2C3140%2C0.97&t=y0mtN6dPsKgy20SM-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=319%3A230'">Figma</button>
                     </div>
                 </div>
             </div>
@@ -699,8 +710,7 @@
                             In this game, teams of chickens and ducks compete in real-time battles to win the coveted Supercorn. Inspired by classic games like Angry Birds, Farm Fighters adds exciting multiplayer features, strategic unit placement, and dynamic environments.</p>
                     </div>
                     <div class="content_link">
-                        <button class="link_button" id = "btn_10" onclick="window.location.href=''">TestFlight</button>
-                        <button class="link_button" id = "btn_10" onclick="window.location.href=''">Github</button>
+                        <button class="link_button" id = "btn_10" onclick="window.location.href='https://qrfy.io/SjqxwWVzqu'">TestFlight</button>
                     </div>
                 </div>
             </div>
@@ -731,7 +741,6 @@
                     <div class ="detail_child">
                         <h4>Role/Position</h4>
                         <ul>
-                            <li>Jira</li>
                             <li>UI/UX Designer</li>
                             <li>Programmer/Coder</li>
                         </ul>
@@ -742,9 +751,7 @@
                     <p>Endxiety is a note-taking app designed to support you through anxious moments. Quickly jot down thoughts, record feelings, and track your mental state over time. With an easy-to-use, organized layout, Endxiety helps you manage your emotions and see your progress whenever you need it.</p>
                 </div>
                 <div class="content_link">
-                    <button class="link_button" id = "btn_11" onclick="window.location.href=''">Figma</button>
-                    <button class="link_button" id = "btn_10" onclick="window.location.href=''">TestFlight</button>
-                    <button class="link_button" id = "btn_11" onclick="window.location.href=''">Github</button>
+                    <button class="link_button" id = "btn_11" onclick="window.location.href='https://bit.ly/EndxietyPrototype?r=qr'">Figma</button>
                 </div>
             </div>
         </div>
@@ -788,8 +795,8 @@
                         Ladder also includes a Puzzle Memory Game, turning album photos into puzzles that engage cognitive skills. Upon puzzle completion, captions are revealed via text-to-speech or voice notes, allowing users to revisit cherished memories. Combining cognitive stimulation with memory recall, Ladder enriches daily experiences in an interactive, meaningful way.</p>
                 </div>
                 <div class="content_link">
-                    <button class="link_button" id = "btn_10" onclick="window.location.href=''">TestFlight</button>
-                    <button class="link_button" id = "btn_12" onclick="window.location.href=''">Figma</button>
+                    <button class="link_button" id = "btn_12" onclick="window.location.href='https://bit.ly/LadderTestFlight?r=qr'">TestFlight</button>
+                    <button class="link_button" id = "btn_12" onclick="window.location.href='https://bit.ly/3yQxBqz?r=qr'">Figma</button>
                 </div>
             </div>
         </div>
