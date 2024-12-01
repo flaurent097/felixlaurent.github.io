@@ -40,32 +40,38 @@ html{
 :root {
     --background-color: #F7F7F7; 
     --text-color: #010101; 
+    --shadow-opacity: rgba(1, 1, 1, 0.2);
 }
 
 .dark-mode {
     --background-color: #010101; 
-    --text-color: white; 
+    --text-color: #F7F7F7; 
+    --shadow-opacity: rgba(255, 255, 255, 0.4);
 }
 
 .mode-toggle {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 25px;
+    right: 50px;
 }
 
 .mode-button {
-    padding: 10px 20px;
-    font-size: 12px;
-    cursor: pointer;
-    background-color: transparent;
-    border: 2px solid ;
-    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 20pt;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 16px;
     transition: all 0.3s ease;
+    box-shadow: 0 0 16px var(--shadow-opacity);
 }
 
 .mode-button:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    border-radius: 50px;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    box-shadow: 0 0 30px var(--shadow-opacity);
 }
 
 button{
@@ -128,11 +134,12 @@ footer{
     overflow: hidden;
     box-shadow: 5px 5px 25px rgba(255, 255, 255, 0.1);
     transition: all 0.25s ease-in-out;
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 20px var(--shadow-opacity);
 }
 
 .profile_picture:hover{
     transform: scale(1.015);
+    box-shadow: 8px 8px 30px var(--shadow-opacity);
 }
 
 .profile_picture img{
@@ -270,11 +277,12 @@ footer{
 
 .connect_logo img{
     width: 30px;
+    border-radius: 6px;
 }
 
 .connect_logo :hover{
-    box-shadow: 5px 5px 25px rgba(255, 255, 255, 0.2);
     transform: scale(1.1);
+    box-shadow: 0px 0px 20px var(--shadow-opacity);
 }
 
 .project_collection{

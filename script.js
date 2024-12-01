@@ -57,9 +57,9 @@ const body = document.body;
 toggleModeButton.addEventListener('click', () => {
     if (body.classList.contains('dark-mode')) {
         body.classList.replace('dark-mode', 'light-mode');
-        toggleModeButton.textContent = '🌞 Light Mode';
+        toggleModeButton.textContent = '☾';
     } else {
         body.classList.replace('light-mode', 'dark-mode');
-        toggleModeButton.textContent = '🌙 Dark Mode';
+        toggleModeButton.textContent = '☼';
     }
 });
