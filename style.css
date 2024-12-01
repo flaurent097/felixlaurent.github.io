@@ -49,10 +49,6 @@ html{
     --shadow-opacity: rgba(255, 255, 255, 0.4);
 }
 
-/* button{
-    cursor: pointer;
-} */
-
 .mode-toggle {
     position: absolute;
     top: 25px;
