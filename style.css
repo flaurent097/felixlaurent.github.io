@@ -37,16 +37,16 @@ html{
     scroll-behavior: smooth;
 }
 
-:root {
-    --background-color: #F7F7F7; 
-    --text-color: #010101; 
-    --shadow-opacity: rgba(1, 1, 1, 0.2);
-}
-
 .dark-mode {
     --background-color: #010101; 
     --text-color: #F7F7F7; 
     --shadow-opacity: rgba(255, 255, 255, 0.4);
+}
+
+.light-mode {
+    --background-color: #F7F7F7; 
+    --text-color: #010101; 
+    --shadow-opacity: rgba(1, 1, 1, 0.2);
 }
 
 .mode-toggle {
