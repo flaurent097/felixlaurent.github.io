@@ -539,6 +539,29 @@ body.modal_open{
     margin: 0;
 }
 
+.contributor a {
+    text-decoration: none;
+    color:#000000;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.contributor a:hover {
+    color: #478EFF;
+    font-weight:bold;
+}
+
+.tools_used{
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 36px;
+    transition: all 0.2s ease-in-out;
+}
+
+.tools_used img{
+    height: 70px;
+    padding-right: 20px;
+}
 
 @media screen and (min-width: 901px) {
     .landing_page{
@@ -1188,7 +1211,7 @@ body.modal_open{
         box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3);
         transform: translateY(1000px);
         transition: all 0.3s ease-in-out;
-        overflow-y: scroll;
+        overflow-y: auto;
         font-size: 10pt;
     }
 
