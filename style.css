@@ -551,17 +551,21 @@ body.modal_open{
     font-weight:bold;
 }
 
-.tools_used{
+.tools_used {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 24px;
     margin-bottom: 36px;
     transition: all 0.2s ease-in-out;
+    gap: 20px;
 }
 
-.tools_used img{
+.tools_used img {
     height: 70px;
-    padding-right: 20px;
+    max-width: 100%;
 }
+
 
 @media screen and (min-width: 901px) {
     .landing_page{
